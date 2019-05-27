@@ -34,7 +34,7 @@ const theme = createTheme(
 );
 
 const LOGO = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K';
-const photoURL = "https://avatars1.githubusercontent.com/u/4452113?s=400&u=a1a0e0584c93e33cfde2e0085a631c52894e7541&v=4";
+const photoURL = "https://avatars1.githubusercontent.com/u/4452113?s=460&v=4";
 
 export default function Presentation(props) {
   return (
@@ -46,14 +46,21 @@ export default function Presentation(props) {
 
       {/* Slide 1 */}
       <Slide transition={['zoom']} bgColor="primary">
-        <img src={LOGO} alt="react" width={200} style={{marginBottom: 40}} />
+        <img src={LOGO} alt="react" width={150} style={{
+          marginBottom: 40,
+          animation: 'spin 3s linear infinite',
+        }} />
 
         <Heading size={1} caps fit lineHeight={1} textColor="secondary">
           Evoluído o React para mobile
         </Heading>
 
-        <Text margin="10px 0 0" textColor="tertiary" size={1} bold>
+        <Text margin="10px 0 0" textColor="tertiary" size={10} bold>
           com PWA e React Native
+        </Text>
+
+        <Text margin="80px 0 0" textColor="secondary" textSize={20}>
+          por Marco Antônio
         </Text>
       </Slide>
 
@@ -95,20 +102,156 @@ export default function Presentation(props) {
             <ListItem>Full Stack Engineer</ListItem>
             <ListItem>DevOps Evangelist</ListItem>
             <ListItem>Cat lover</ListItem>
-            <ListItem>Bravo de código</ListItem>
+            <ListItem>Bravo de código at @GovPredict</ListItem>
           </List>
         </div>
       </Slide>
 
+      {/* Web Development */}
       <Slide transition={['fade']} bgColor="secondary" textColor="primary">
         <BlockQuote>
-          <Quote>Errado!</Quote>
-          <Cite>Relâmpago Marquinhos</Cite>
+          <Quote>Web development</Quote>
+          <Cite>A caminho do mobile</Cite>
         </BlockQuote>
+      </Slide>
 
-        <Text size={6} textColor="secondary">
-          Aqui é relâmpago Marquinhos?
-        </Text>
+      <Slide transition={['fade']} bgColor="primary" textColor="secondary">
+        <Heading size={6} textColor="secondary" fit caps>
+          jQuery e jQuery Mobile
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="primary" textColor="secondary">
+        <Heading size={3} textColor="secondary" caps>
+          Responsividade e Mobile First
+        </Heading>
+      </Slide>
+
+      {/* Mobile Development */}
+      <Slide transition={['fade']} bgColor="secondary" textColor="primary">
+        <BlockQuote>
+          <Quote>Mobile Development</Quote>
+        </BlockQuote>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="primary" textColor="secondary">
+        <Heading size={3} textColor="tertiary">
+          Por quê ter um app mobile?
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="primary" textColor="secondary">
+      <Heading size={3} textColor="tertiary">
+          Principais motivos
+        </Heading>
+
+        <List textColor="secondary">
+          <ListItem>Engajamento e Presença</ListItem>
+          <ListItem>Funciona Offline</ListItem>
+          <ListItem>Sensação de ser mais rápido</ListItem>
+          <ListItem>Acesso a sensores nativos</ListItem>
+        </List>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="primary" textColor="secondary">
+        <Heading size={5} textColor="tertiary">
+          Distribuição do tempo gasto no celular (iOS e Android) 
+        </Heading>
+
+        <img src="https://static.wingify.com/vwo/uploads/sites/3/2015/10/flurry_march2014_apptime.jpg" alt="almost 8x"/>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
+        <Heading size={3} textColor="tertiary">
+          Tipos de aplicações mobile
+        </Heading>
+
+        <List textColor="secondary">
+          <ListItem>Native Apps</ListItem>
+          <ListItem>Hybrid Apps</ListItem>
+          <ListItem>Progressive Web Apps</ListItem>
+        </List>
+      </Slide>
+
+      {/* Types of Apps - Native Apps */}
+      <Slide transition={['fade']} bgColor="primary" textColor="secondary">
+        <Heading size={3} textColor="tertiary">
+          Native Apps
+        </Heading>
+      </Slide>
+
+      {/* Types of Apps - Hybrid Apps */}
+      <Slide transition={['fade']} bgColor="secondary" textColor="primary">
+        <BlockQuote>
+          <Quote>Hybrid Apps</Quote>
+        </BlockQuote>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="secondary">
+        <List textColor="primary">
+          <ListItem>Melhor performance possivel</ListItem>
+          <ListItem>Funciona Offline</ListItem>
+          <ListItem>Sensação de ser mais rápido</ListItem>
+          <ListItem>Acesso a sensores nativos</ListItem>
+        </List>
+      </Slide>
+
+      {/* Types of Apps - Progressive Web App */}
+      <Slide transition={['fade']} bgColor="primary" textColor="secondary">
+        <Heading size={3} textColor="tertiary">
+        Progressive Web App
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="primary" textColor="secondary">
+        <Heading size={6} textColor="tertiary">
+          manifest.json
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="primary" textColor="secondary">
+        <Heading size={6} textColor="tertiary">
+          Service Work
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="primary" textColor="secondary">
+        <Heading size={6} textColor="tertiary">
+          Service Work - requisites
+        </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="primary" textColor="secondary">
+        <Heading size={6} textColor="tertiary">
+          create-react-app
+        </Heading>
+      </Slide>
+
+      {/* Types of Apps - Progressive Web App */}
+      <Slide transition={['fade']} bgColor="secondary" textColor="primary">
+        <BlockQuote>
+          <Quote>PWA na SmarttBot</Quote>
+        </BlockQuote>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="secondary">
+        <Heading size={3} textColor="primary">
+          Trusted Web Applications
+        </Heading>
+      </Slide>
+
+      {/* Conclusões finais */}
+      <Slide transition={['fade']} bgColor="primary" textColor="secondary">
+        <Heading size={3} textColor="tertiary">
+          Considerações finais
+        </Heading>
+      </Slide>
+
+      {/* Dúvidas */}
+      <Slide transition={['fade']} bgColor="primary" textColor="secondary">
+        <Heading size={3} textColor="tertiary">
+          Perguntas?
+        </Heading>
       </Slide>
     </Deck>
   );
