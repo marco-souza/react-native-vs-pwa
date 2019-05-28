@@ -72,6 +72,7 @@ export default function Presentation(props) {
           Tópicos
         </Heading>
 
+
         <List textColor="primary">
           <ListItem>Web development</ListItem>
           <ListItem>Mobile Development</ListItem>
@@ -100,6 +101,9 @@ export default function Presentation(props) {
           />
 
           <List>
+            <Text margin="10px 0 0" textColor="secondary" size={10} bold>
+              Marco Antônio
+            </Text>
             <ListItem textSize="1em">Full Stack Engineer</ListItem>
             <ListItem textSize="1em">DevOps Evangelist</ListItem>
             <ListItem textSize="1em">Cat lover</ListItem>
@@ -183,7 +187,7 @@ export default function Presentation(props) {
 
       <Slide transition={['fade']} bgColor="primary">
         <List textColor="success">
-          <ListItem>Melhor performance possivel</ListItem>
+          <ListItem>Melhor performance possível</ListItem>
           <ListItem>Funciona Offline</ListItem>
           <ListItem>Acesso a sensores nativos</ListItem>
         </List>
@@ -235,16 +239,23 @@ export default function Presentation(props) {
           <ListItem>Não requer instalação</ListItem>
           <ListItem>Funciona offline</ListItem>
           <ListItem>Baixa curva de aprendizado - HTML, CSS, e JavaScript</ListItem>
-          <ListItem>Integração com APIs do nativas navegador</ListItem>
+          <ListItem>Integração com APIs do navegador (push, cache, password manager, etc)</ListItem>
         </List>
       </Slide>
 
       <Slide transition={['fade']} bgColor="primary">
         <List textColor="danger">
           <ListItem>Curva de aprendizado um pouco maior</ListItem>
-          <ListItem>Pode gerar problemas Cache</ListItem>
-          <ListItem>Depende do suporte do navegador</ListItem>
+          <ListItem>Pode gerar problemas de cache</ListItem>
+          <ListItem>Depende de suporte do navegador</ListItem>
         </List>
+      </Slide>
+
+      {/* Types of Apps - Demo */}
+      <Slide transition={['fade']} bgColor="secondary" textColor="primary">
+        <BlockQuote>
+          <Quote>Demo</Quote>
+        </BlockQuote>
       </Slide>
 
       <Slide transition={['fade']} bgColor="primary" textColor="secondary">
@@ -287,15 +298,7 @@ export default function Presentation(props) {
       </Slide>
 
       <Slide transition={['fade']} bgColor="primary" textColor="secondary">
-        <Heading size={3} textColor="tertiary">
-          Referências e ferramentas
-        </Heading>
-
-        <List>
-          <ListItem>blah</ListItem>
-          <ListItem>bla</ListItem>
-          <ListItem>bla</ListItem>
-        </List>
+        <img src="https://media3.giphy.com/media/KJ1f5iTl4Oo7u/giphy.gif" alt="Thanks" width={800} />
       </Slide>
     </Deck>
   );
