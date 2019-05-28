@@ -27,10 +27,9 @@ export default function Presenter({ photoURL, name, github, linkedin, hightlight
           {name}
         </Text>
 
-        <ListItem textSize="1em">Full Stack Engineer</ListItem>
-        <ListItem textSize="1em">DevOps Evangelist</ListItem>
-        <ListItem textSize="1em">Cat lover</ListItem>
-        <ListItem textSize="1em">Bravo de código na @GovPredict</ListItem>
+        {hightlights.map((item, i) => (
+          <ListItem key={i} textSize="1em">{item}</ListItem>
+        ))}
 
         <div style={{display: 'inline-block', padding: 10, marginTop: 60, fontSize: 20 }}>
           <a style={{ textDecoration: 'none', color: '#CECECE', margin: 10 }} href={`https://github.com/${github}`}>
