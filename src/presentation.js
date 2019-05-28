@@ -24,8 +24,10 @@ const theme = createTheme(
   {
     primary: '#282c34',
     secondary: '#CECECE',
-    tertiary: '#61dafb',
+    tertiary: '#05d7fe',
     quaternary: '#CECECE',
+    success: '#009688',
+    danger: '#ef5350',
   },
   {
     primary: 'Montserrat',
@@ -52,7 +54,7 @@ export default function Presentation(props) {
         }} />
 
         <Heading size={1} caps fit lineHeight={1} textColor="secondary">
-          Evoluído o React para mobile
+          Evoluindo o React para mobile
         </Heading>
 
         <Text margin="10px 0 0" textColor="tertiary" size={10} bold>
@@ -67,7 +69,7 @@ export default function Presentation(props) {
       {/* Summary */}
       <Slide transition={['fade']} bgColor="secondary">
         <Heading size={6} textColor="primary" caps>
-          Summary
+          Tópicos
         </Heading>
 
         <List textColor="primary">
@@ -99,10 +101,10 @@ export default function Presentation(props) {
           />
 
           <List>
-            <ListItem>Full Stack Engineer</ListItem>
-            <ListItem>DevOps Evangelist</ListItem>
-            <ListItem>Cat lover</ListItem>
-            <ListItem>Bravo de código at @GovPredict</ListItem>
+            <ListItem textSize="1em">Full Stack Engineer</ListItem>
+            <ListItem textSize="1em">DevOps Evangelist</ListItem>
+            <ListItem textSize="1em">Cat lover</ListItem>
+            <ListItem textSize="1em">Bravo de código na @GovPredict</ListItem>
           </List>
         </div>
       </Slide>
@@ -111,7 +113,7 @@ export default function Presentation(props) {
       <Slide transition={['fade']} bgColor="secondary" textColor="primary">
         <BlockQuote>
           <Quote>Web development</Quote>
-          <Cite>A caminho do mobile</Cite>
+          <Cite>A long time ago...</Cite>
         </BlockQuote>
       </Slide>
 
@@ -180,6 +182,23 @@ export default function Presentation(props) {
         </Heading>
       </Slide>
 
+      <Slide transition={['fade']} bgColor="primary">
+        <List textColor="success">
+          <ListItem>Melhor performance possivel</ListItem>
+          <ListItem>Funciona Offline</ListItem>
+          <ListItem>Acesso a sensores nativos</ListItem>
+        </List>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="primary">
+        <List textColor="danger">
+          <ListItem>Desenvolvimento mais caro</ListItem>
+          <ListItem>Relativamente poucos desenvolvedores</ListItem>
+          <ListItem>Maior curva de aprendizado para novos</ListItem>
+          <ListItem>Requer instalação</ListItem>
+        </List>
+      </Slide>
+
       {/* Types of Apps - Hybrid Apps */}
       <Slide transition={['fade']} bgColor="secondary" textColor="primary">
         <BlockQuote>
@@ -188,11 +207,19 @@ export default function Presentation(props) {
       </Slide>
 
       <Slide transition={['fade']} bgColor="secondary">
-        <List textColor="primary">
-          <ListItem>Melhor performance possivel</ListItem>
-          <ListItem>Funciona Offline</ListItem>
-          <ListItem>Sensação de ser mais rápido</ListItem>
-          <ListItem>Acesso a sensores nativos</ListItem>
+        <List textColor="success">
+          <ListItem>Oferece acesso ao sistema via APIs</ListItem>
+          <ListItem>Utiliza de frameworks web para fazer interfaces</ListItem>
+          <ListItem>Baixa curva de aprendizado - HTML, CSS, e JavaScript</ListItem>
+        </List>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="primary">
+        <List textColor="danger">
+          <ListItem>Aplicativos lentos</ListItem>
+          <ListItem>Problemas com binds de navegação nativa</ListItem>
+          <ListItem>Aplicativos ocupam mais espaço</ListItem>
+          <ListItem>Requer instalação</ListItem>
         </List>
       </Slide>
 
@@ -203,28 +230,35 @@ export default function Presentation(props) {
         </Heading>
       </Slide>
 
-      <Slide transition={['fade']} bgColor="primary" textColor="secondary">
-        <Heading size={6} textColor="tertiary">
-          manifest.json
-        </Heading>
+      <Slide transition={['fade']} bgColor="secondary">
+        <List textColor="success">
+          <ListItem>Aplicativos muito leves</ListItem>
+          <ListItem>Não requer instalação</ListItem>
+          <ListItem>Funciona offline</ListItem>
+          <ListItem>Baixa curva de aprendizado - HTML, CSS, e JavaScript</ListItem>
+          <ListItem>Integração com APIs do nativas chrome</ListItem>
+        </List>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="primary">
+        <List textColor="danger">
+          <ListItem>Curva de aprendizado um pouco maior</ListItem>
+          <ListItem>Pode gerar problemas Cache</ListItem>
+          <ListItem>Precisa do chrome instalado</ListItem>
+          <ListItem>Suporte parcial para apple</ListItem>
+        </List>
       </Slide>
 
       <Slide transition={['fade']} bgColor="primary" textColor="secondary">
         <Heading size={6} textColor="tertiary">
-          Service Work
+          Requisitos
         </Heading>
-      </Slide>
 
-      <Slide transition={['fade']} bgColor="primary" textColor="secondary">
-        <Heading size={6} textColor="tertiary">
-          Service Work - requisites
-        </Heading>
-      </Slide>
-
-      <Slide transition={['fade']} bgColor="primary" textColor="secondary">
-        <Heading size={6} textColor="tertiary">
-          create-react-app
-        </Heading>
+        <List>
+          <ListItem>manifest.json</ListItem>
+          <ListItem>Service Work</ListItem>
+          <ListItem>https</ListItem>
+        </List>
       </Slide>
 
       {/* Types of Apps - Progressive Web App */}
@@ -252,6 +286,18 @@ export default function Presentation(props) {
         <Heading size={3} textColor="tertiary">
           Perguntas?
         </Heading>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="primary" textColor="secondary">
+        <Heading size={3} textColor="tertiary">
+          Referências e ferramentas
+        </Heading>
+
+        <List>
+          <ListItem>blah</ListItem>
+          <ListItem>bla</ListItem>
+          <ListItem>bla</ListItem>
+        </List>
       </Slide>
     </Deck>
   );
