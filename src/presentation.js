@@ -75,8 +75,7 @@ export default function Presentation(props) {
         <List textColor="primary">
           <ListItem>Web development</ListItem>
           <ListItem>Mobile Development</ListItem>
-          <ListItem>Progressive Web Apps</ListItem>
-          <ListItem>Pontos fortes Pontos Fracos</ListItem>
+          <ListItem>Demo</ListItem>
           <ListItem>Case de sucesso</ListItem>
           <ListItem>Perguntas</ListItem>
         </List>
@@ -157,7 +156,7 @@ export default function Presentation(props) {
 
       <Slide transition={['fade']} bgColor="primary" textColor="secondary">
         <Heading size={5} textColor="tertiary">
-          Distribuição do tempo gasto no celular (iOS e Android) 
+          Distribuição do tempo gasto no celular (iOS e Android)
         </Heading>
 
         <img src="https://static.wingify.com/vwo/uploads/sites/3/2015/10/flurry_march2014_apptime.jpg" alt="almost 8x"/>
@@ -194,7 +193,7 @@ export default function Presentation(props) {
         <List textColor="danger">
           <ListItem>Desenvolvimento mais caro</ListItem>
           <ListItem>Relativamente poucos desenvolvedores</ListItem>
-          <ListItem>Maior curva de aprendizado para novos</ListItem>
+          <ListItem>Maior curva de aprendizado para novatos</ListItem>
           <ListItem>Requer instalação</ListItem>
         </List>
       </Slide>
@@ -236,7 +235,7 @@ export default function Presentation(props) {
           <ListItem>Não requer instalação</ListItem>
           <ListItem>Funciona offline</ListItem>
           <ListItem>Baixa curva de aprendizado - HTML, CSS, e JavaScript</ListItem>
-          <ListItem>Integração com APIs do nativas chrome</ListItem>
+          <ListItem>Integração com APIs do nativas navegador</ListItem>
         </List>
       </Slide>
 
@@ -244,8 +243,7 @@ export default function Presentation(props) {
         <List textColor="danger">
           <ListItem>Curva de aprendizado um pouco maior</ListItem>
           <ListItem>Pode gerar problemas Cache</ListItem>
-          <ListItem>Precisa do chrome instalado</ListItem>
-          <ListItem>Suporte parcial para apple</ListItem>
+          <ListItem>Depende do suporte do navegador</ListItem>
         </List>
       </Slide>
 
