@@ -23,6 +23,7 @@ require('normalize.css');
 const theme = createTheme(
   {
     primary: '#282c34',
+    white: '#fefefe',
     secondary: '#CECECE',
     tertiary: '#05d7fe',
     quaternary: '#CECECE',
@@ -252,9 +253,11 @@ export default function Presentation(props) {
       </Slide>
 
       {/* Types of Apps - Demo */}
-      <Slide transition={['fade']} bgColor="secondary" textColor="primary">
+      <Slide transition={['fade']} bgColor="white" textColor="primary" >
         <BlockQuote>
           <Quote>Demo</Quote>
+
+          <img src="https://media.giphy.com/media/nGMnDqebzDcfm/giphy.gif" alt="code" width={400} style={{ margin: '100px 0 0' }} />
         </BlockQuote>
       </Slide>
 
