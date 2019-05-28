@@ -312,11 +312,10 @@ export default function Presentation(props) {
       <Slide transition={['fade']} bgColor="primary" textColor="secondary">
         <List textColor="secondary">
           Referências:
-          <ListItem textSize={18}>https://developers.google.com/web/ilt/pwa/</ListItem>
-          <ListItem textSize={18}>https://developers.google.com/web/fundamentals/</ListItem>
           <ListItem textSize={18}>https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app</ListItem>
           <ListItem textSize={18}>https://en.wikipedia.org/wiki/Progressive_web_applications</ListItem>
           <ListItem textSize={18}>https://vwo.com/blog/10-reasons-mobile-apps-are-better/</ListItem>
+          <ListItem textSize={18}>https://developers.google.com/web/fundamentals/</ListItem>
           <ListItem textSize={18}>https://facebook.github.io/react-native/</ListItem>
           <ListItem textSize={18}>https://reactjs.org/</ListItem>
         </List>
