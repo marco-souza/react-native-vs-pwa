@@ -219,15 +219,6 @@ export default function Presentation(props) {
         </List>
       </Slide>
 
-      <Slide transition={['fade']} bgColor="primary">
-        <List textColor="danger">
-          <ListItem>Aplicativos lentos</ListItem>
-          <ListItem>Problemas com binds de navegação nativa</ListItem>
-          <ListItem>Aplicativos ocupam mais espaço</ListItem>
-          <ListItem>Requer instalação</ListItem>
-        </List>
-      </Slide>
-
       <Slide transition={['fade']} bgColor="primary" textColor="secondary">
         <Heading size={3} textColor="tertiary">
           E onde entra o
