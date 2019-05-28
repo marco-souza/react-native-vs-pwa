@@ -39,6 +39,7 @@ const theme = createTheme(
 
 const LOGO = 'https://cdn.svgporn.com/logos/react.svg';
 const photoURL = "https://avatars1.githubusercontent.com/u/4452113?s=460&v=4";
+const RN = 'https://raw.githubusercontent.com/kristerkari/react-native-svg-transformer/HEAD/images/react-native-logo.png';
 
 export default function Presentation(props) {
   return (
@@ -216,6 +217,27 @@ export default function Presentation(props) {
           <ListItem>Aplicativos ocupam mais espaço</ListItem>
           <ListItem>Requer instalação</ListItem>
         </List>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="primary">
+        <List textColor="danger">
+          <ListItem>Aplicativos lentos</ListItem>
+          <ListItem>Problemas com binds de navegação nativa</ListItem>
+          <ListItem>Aplicativos ocupam mais espaço</ListItem>
+          <ListItem>Requer instalação</ListItem>
+        </List>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="primary" textColor="secondary">
+        <Heading size={3} textColor="tertiary">
+          E onde entra o
+        </Heading>
+
+        <img src={RN} alt="React Native" width={200} style={{ margin: '60px 0' }} />
+
+        <Heading size={3} textColor="tertiary">
+          ?
+        </Heading>
       </Slide>
 
       {/* Types of Apps - Progressive Web App */}
