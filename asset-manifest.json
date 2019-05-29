@@ -1,13 +1,13 @@
 {
-  "main.js": "/static/js/main.cec5fbda.chunk.js",
-  "main.js.map": "/static/js/main.cec5fbda.chunk.js.map",
-  "static/css/1.9ee5fafa.chunk.css": "/static/css/1.9ee5fafa.chunk.css",
-  "static/js/1.7b630c29.chunk.js": "/static/js/1.7b630c29.chunk.js",
-  "static/js/1.7b630c29.chunk.js.map": "/static/js/1.7b630c29.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/1.9ee5fafa.chunk.css.map": "/static/css/1.9ee5fafa.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.8cbd8852138b1fbbbde8323657712514.js": "/precache-manifest.8cbd8852138b1fbbbde8323657712514.js",
-  "service-worker.js": "/service-worker.js"
+  "main.js": "/react-native-vs-pwa/static/js/main.cec5fbda.chunk.js",
+  "main.js.map": "/react-native-vs-pwa/static/js/main.cec5fbda.chunk.js.map",
+  "static/css/1.9ee5fafa.chunk.css": "/react-native-vs-pwa/static/css/1.9ee5fafa.chunk.css",
+  "static/js/1.7b630c29.chunk.js": "/react-native-vs-pwa/static/js/1.7b630c29.chunk.js",
+  "static/js/1.7b630c29.chunk.js.map": "/react-native-vs-pwa/static/js/1.7b630c29.chunk.js.map",
+  "runtime~main.js": "/react-native-vs-pwa/static/js/runtime~main.3f479794.js",
+  "runtime~main.js.map": "/react-native-vs-pwa/static/js/runtime~main.3f479794.js.map",
+  "static/css/1.9ee5fafa.chunk.css.map": "/react-native-vs-pwa/static/css/1.9ee5fafa.chunk.css.map",
+  "index.html": "/react-native-vs-pwa/index.html",
+  "precache-manifest.869213ddf00165d547e4016722fa88a7.js": "/react-native-vs-pwa/precache-manifest.869213ddf00165d547e4016722fa88a7.js",
+  "service-worker.js": "/react-native-vs-pwa/service-worker.js"
 }
