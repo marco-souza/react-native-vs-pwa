@@ -287,7 +287,16 @@ export default function Presentation(props) {
         <div style={{ border: '15px solid white', display: 'inline-block', margin: '60px' }}>
           <QRCode value={DEMO_URL} />
         </div>
-        <Text textSize="2em" ><a style={{ color: 'white', textDecoration: 'none' }} href={DEMO_URL}>{DEMO_URL}</a></Text>
+        <Text textSize="2em" >
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: 'white', textDecoration: 'none' }}
+            href={DEMO_URL}
+          >
+              {DEMO_URL}
+          </a>
+        </Text>
       </Slide>
 
       {/* Types of Apps - Progressive Web App */}
