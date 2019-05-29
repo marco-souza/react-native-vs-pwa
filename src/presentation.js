@@ -16,12 +16,17 @@ import {
 
 // Import theme
 import createTheme from 'spectacle/lib/themes/default';
+import QRCode from 'react-qr-code';
+
 import Presenter from './Presenter'
 import choppTime from './chopp-time.jpeg'
-import reactLogo from './react.svg'
+import reactLogo from './react.png'
 import photoURL from './me.jpeg'
 import reactNativeLogo from './react-native-logo.png'
-import QRCode from 'react-qr-code';
+import chartImg from './chart.jpg'
+import demoGif from './demo.gif'
+import thanksGif from './thanks.gif'
+
 
 // Require CSS
 require('normalize.css');
@@ -159,7 +164,7 @@ export default function Presentation(props) {
           Distribuição do tempo gasto no celular (iOS e Android)
         </Heading>
 
-        <img src="https://static.wingify.com/vwo/uploads/sites/3/2015/10/flurry_march2014_apptime.jpg" alt="almost 8x"/>
+        <img src={chartImg} alt="almost 8x"/>
       </Slide>
 
       <Slide transition={['fade']} bgColor="primary" textColor="tertiary">
@@ -264,7 +269,7 @@ export default function Presentation(props) {
         <BlockQuote>
           <Quote>Demo</Quote>
 
-          <img src="https://media.giphy.com/media/nGMnDqebzDcfm/giphy.gif" alt="code" width={400} style={{ margin: '100px 0 0' }} />
+          <img src={demoGif} alt="code" width={400} style={{ margin: '100px 0 0' }} />
         </BlockQuote>
       </Slide>
 
@@ -328,7 +333,7 @@ export default function Presentation(props) {
       </Slide>
 
       <Slide transition={['fade']} bgColor="primary" textColor="secondary">
-        <img src="https://media3.giphy.com/media/KJ1f5iTl4Oo7u/giphy.gif" alt="Thanks" width={800} />
+        <img src={thanksGif} alt="Thanks" width={800} />
       </Slide>
 
       {/* Referências */}
