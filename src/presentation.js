@@ -17,6 +17,7 @@ import {
 // Import theme
 import createTheme from 'spectacle/lib/themes/default';
 import Presenter from './Presenter'
+import choppTime from './chopp-time.jpeg'
 import QRCode from 'react-qr-code';
 
 // Require CSS
@@ -343,6 +344,14 @@ export default function Presentation(props) {
         </List>
       </Slide>
 
+      {/* Chopp Time */}
+      <Slide transition={['fade']} bgColor="primary" textColor="secondary">
+        <Heading size={4} textColor="secondary" style={{ marginBottom: 40 }}>
+          It's Chopp Time!
+        </Heading>
+
+        <img src={choppTime} alt="Chopp Time" width={600} />
+      </Slide>
     </Deck>
   );
 }
