@@ -18,6 +18,9 @@ import {
 import createTheme from 'spectacle/lib/themes/default';
 import Presenter from './Presenter'
 import choppTime from './chopp-time.jpeg'
+import reactLogo from './react.svg'
+import photoURL from './me.jpeg'
+import reactNativeLogo from './react-native-logo.png'
 import QRCode from 'react-qr-code';
 
 // Require CSS
@@ -40,9 +43,6 @@ const theme = createTheme(
 );
 
 const DEMO_URL = 'https://bit.ly/2Kc9Qhc';
-const LOGO = 'https://cdn.svgporn.com/logos/react.svg';
-const photoURL = "https://avatars1.githubusercontent.com/u/4452113?s=460&v=4";
-const RN = 'https://raw.githubusercontent.com/kristerkari/react-native-svg-transformer/HEAD/images/react-native-logo.png';
 
 export default function Presentation(props) {
   return (
@@ -54,7 +54,7 @@ export default function Presentation(props) {
 
       {/* Slide 1 */}
       <Slide transition={['zoom']} bgColor="primary">
-        <img src={LOGO} alt="react" width={150} style={{
+        <img src={reactLogo} alt="react" width={150} style={{
           marginBottom: 40,
           animation: 'spin 3s linear infinite',
         }} />
@@ -227,7 +227,7 @@ export default function Presentation(props) {
           E onde entra o
         </Heading>
 
-        <img src={RN} alt="React Native" width={200} style={{ margin: '60px 0' }} />
+        <img src={reactNativeLogo} alt="React Native" width={200} style={{ margin: '60px 0' }} />
 
         <Heading size={3} textColor="tertiary">
           ?
