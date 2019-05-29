@@ -1,5 +1,6 @@
 {
   "name": "react-native-vs-pwa",
+  "homepage" : "http://marco-souza.github.io/react-native-vs-pwa/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
