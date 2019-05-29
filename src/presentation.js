@@ -17,6 +17,7 @@ import {
 // Import theme
 import createTheme from 'spectacle/lib/themes/default';
 import Presenter from './Presenter'
+import QRCode from 'react-qr-code';
 
 // Require CSS
 require('normalize.css');
@@ -37,6 +38,7 @@ const theme = createTheme(
   }
 );
 
+const DEMO_URL = 'https://bit.ly/2Kc9Qhc';
 const LOGO = 'https://cdn.svgporn.com/logos/react.svg';
 const photoURL = "https://avatars1.githubusercontent.com/u/4452113?s=460&v=4";
 const RN = 'https://raw.githubusercontent.com/kristerkari/react-native-svg-transformer/HEAD/images/react-native-logo.png';
@@ -213,8 +215,8 @@ export default function Presentation(props) {
       <Slide transition={['fade']} bgColor="primary">
         <List textColor="danger">
           <ListItem>Aplicativos lentos</ListItem>
-          <ListItem>Problemas com binds de navegação nativa</ListItem>
           <ListItem>Aplicativos ocupam mais espaço</ListItem>
+          <ListItem>Problemas com binds de navegação nativa</ListItem>
           <ListItem>Requer instalação</ListItem>
         </List>
       </Slide>
@@ -275,6 +277,17 @@ export default function Presentation(props) {
           <ListItem>Service Work</ListItem>
           <ListItem>https</ListItem>
         </List>
+      </Slide>
+
+      <Slide transition={['fade']} bgColor="primary" textColor="secondary">
+        <Heading size={2} textColor="tertiary">
+          Demo View
+        </Heading>
+
+        <div style={{ border: '15px solid white', display: 'inline-block', margin: '60px' }}>
+          <QRCode value={DEMO_URL} />
+        </div>
+        <Text textSize="2em" ><a style={{ color: 'white', textDecoration: 'none' }} href={DEMO_URL}>{DEMO_URL}</a></Text>
       </Slide>
 
       {/* Types of Apps - Progressive Web App */}
