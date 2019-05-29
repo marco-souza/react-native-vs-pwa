@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-native-vs-pwa/precache-manifest.c7abd657fac26f3faf860c31f0347d7c.js"
+  "/react-native-vs-pwa/precache-manifest.3b91a57e55f8c7dd438a29b0a4e2d291.js"
 );
 
 workbox.clientsClaim();

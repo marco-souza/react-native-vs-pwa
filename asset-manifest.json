@@ -1,13 +1,14 @@
 {
-  "main.js": "/react-native-vs-pwa/static/js/main.f37e6eb8.chunk.js",
-  "main.js.map": "/react-native-vs-pwa/static/js/main.f37e6eb8.chunk.js.map",
-  "static/css/1.9ee5fafa.chunk.css": "/react-native-vs-pwa/static/css/1.9ee5fafa.chunk.css",
-  "static/js/1.7b630c29.chunk.js": "/react-native-vs-pwa/static/js/1.7b630c29.chunk.js",
-  "static/js/1.7b630c29.chunk.js.map": "/react-native-vs-pwa/static/js/1.7b630c29.chunk.js.map",
+  "main.js": "/react-native-vs-pwa/static/js/main.cae3f1f4.chunk.js",
+  "main.js.map": "/react-native-vs-pwa/static/js/main.cae3f1f4.chunk.js.map",
+  "static/css/1.56a02ebb.chunk.css": "/react-native-vs-pwa/static/css/1.56a02ebb.chunk.css",
+  "static/js/1.36d25bf2.chunk.js": "/react-native-vs-pwa/static/js/1.36d25bf2.chunk.js",
+  "static/js/1.36d25bf2.chunk.js.map": "/react-native-vs-pwa/static/js/1.36d25bf2.chunk.js.map",
   "runtime~main.js": "/react-native-vs-pwa/static/js/runtime~main.3f479794.js",
   "runtime~main.js.map": "/react-native-vs-pwa/static/js/runtime~main.3f479794.js.map",
-  "static/css/1.9ee5fafa.chunk.css.map": "/react-native-vs-pwa/static/css/1.9ee5fafa.chunk.css.map",
+  "static/media/chopp-time.jpeg": "/react-native-vs-pwa/static/media/chopp-time.a5f5f5c5.jpeg",
+  "static/css/1.56a02ebb.chunk.css.map": "/react-native-vs-pwa/static/css/1.56a02ebb.chunk.css.map",
   "index.html": "/react-native-vs-pwa/index.html",
-  "precache-manifest.c7abd657fac26f3faf860c31f0347d7c.js": "/react-native-vs-pwa/precache-manifest.c7abd657fac26f3faf860c31f0347d7c.js",
+  "precache-manifest.3b91a57e55f8c7dd438a29b0a4e2d291.js": "/react-native-vs-pwa/precache-manifest.3b91a57e55f8c7dd438a29b0a4e2d291.js",
   "service-worker.js": "/react-native-vs-pwa/service-worker.js"
 }
